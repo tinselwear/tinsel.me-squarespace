@@ -86,9 +86,9 @@ body {}
 .content {
     padding: 0 15px; }
 .product-caption {
-    background: transparent url("/img/bullet-icon.png") 0 0 no-repeat; }
+    background: transparent url("/assets/bullet-icon.png") 0 0 no-repeat; }
 .section-border {
-    background: transparent url("/img/flower-border-bg-m.jpg") 50% 0 no-repeat;
+    background: transparent url("/assets/flower-border-bg-m.jpg") 50% 0 no-repeat;
     background-size: 768px;
     height: 34px; }
 .team-photos {
@@ -117,7 +117,7 @@ body {}
 }
 
 .main-intro {
-    background: transparent url("/img/dipper-main.png") -173px 0 no-repeat;
+    background: transparent url("/assets/dipper-main.png") -173px 0 no-repeat;
     background-size: 600px;
     padding-top: 330px; }
 @media (min-width: 768px) {
@@ -138,7 +138,7 @@ body {}
 }
 
 .features-benefits {
-    background: #000 url("/img/features-benefits-bg-m.jpg") 50% 0 no-repeat;
+    background: #000 url("/assets/features-benefits-bg-m.jpg") 50% 0 no-repeat;
     background-size: 768px;
     padding: 0; }
     .features-benefits h2 {
@@ -152,7 +152,7 @@ body {}
         padding-top: 32px; }
 @media (min-width: 768px) {
 .features-benefits {
-    background: #000 url("/img/features-benefits-bg.jpg") 50% 0 no-repeat;
+    background: #000 url("/assets/features-benefits-bg.jpg") 50% 0 no-repeat;
     background-size: auto;
     max-height: 1034px; }
     .features-benefits .section-border {
@@ -170,7 +170,7 @@ body {}
 }
 
 .meet-dipper {
-    background: #000 url("/img/meet-dipper-bg-m.jpg") 0 0 no-repeat;
+    background: #000 url("/assets/meet-dipper-bg-m.jpg") 0 0 no-repeat;
     background-size: 768px; }
     .meet-dipper h2 br {
         display: none; }
@@ -192,7 +192,7 @@ body {}
         width: 20px; }
 @media (min-width: 768px) {
 .meet-dipper {
-    background: #000 url("/img/meet-dipper-bg.jpg") 50% 0 no-repeat;
+    background: #000 url("/assets/meet-dipper-bg.jpg") 50% 0 no-repeat;
     background-size: auto; }
     .meet-dipper h2 {
         padding: 50px 0 30px;
@@ -224,7 +224,7 @@ body {}
 .why-tinsel {}
 @media (min-width: 768px) {
 .why-tinsel {
-    background: #000 url("/img/why-tinsel-bg.jpg") 50% 0 no-repeat;
+    background: #000 url("/assets/why-tinsel-bg.jpg") 50% 0 no-repeat;
     background-size: auto;
     max-height: 1328px; }
     .why-tinsel h2 {
@@ -243,13 +243,13 @@ body {}
 }
 
 .mailing-list {
-    background: #000 url("/img/purple-pattern-bg.jpg") 0 0 no-repeat;
+    background: #000 url("/assets/purple-pattern-bg.jpg") 0 0 no-repeat;
     background-size: 768px; }
     .mailing-list .content {
         margin: 0; }
 @media (min-width: 768px) {
 .mailing-list {
-    background: #000 url("/img/purple-pattern-bg.jpg") 0 0 repeat-x;
+    background: #000 url("/assets/purple-pattern-bg.jpg") 0 0 repeat-x;
     background-size: auto; }
     .mailing-list .content {
         margin: 0 auto;

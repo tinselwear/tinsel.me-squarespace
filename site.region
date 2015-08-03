@@ -53,7 +53,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a href="/" class="home-link pull-left"><img src="/img/header-logo-m.png"></a>
+          <a href="/" class="home-link pull-left"><img src="/assets/header-logo-m.png"></a>
           <a href="/" class="navbar-brand sr-only" >Tinsel</a>
         </div>
 
@@ -63,18 +63,18 @@
               <li><a href="/blog">blog</a></li>
               <li><a href="/team">team</a></li>
               <li role="presentation" class="instagram">
-                <a href="instagram"><img src="/img/instagram-icon.png" alt="instagram"></a></li>
+                <a href="instagram"><img src="/assets/instagram-icon.png" alt="instagram"></a></li>
               <li role="presentation" class="pinterest">
-                <a href="pinterest"><img src="/img/pinterest-icon.png" alt="pinterest"></a>
+                <a href="pinterest"><img src="/assets/pinterest-icon.png" alt="pinterest"></a>
               </li>
               <li role="presentation" class="twitter">
-                <a href="twitter"><img src="/img/twitter-icon.png" alt="twitter"></a>
+                <a href="twitter"><img src="/assets/twitter-icon.png" alt="twitter"></a>
               </li>
               <li role="presentation" class="facebook">
-                <a href="facebook"><img src="/img/facebook-icon.png" alt="facebook"></a>
+                <a href="facebook"><img src="/assets/facebook-icon.png" alt="facebook"></a>
               </li>
               <li role="presentation" class="email">
-                <a href="email"><img src="/img/email-icon.png" alt="mailto: hello@tinsel.me"></a>
+                <a href="email"><img src="/assets/email-icon.png" alt="mailto: hello@tinsel.me"></a>
               </li>
           </ul>
         </div><!--/.navbar-collapse -->
@@ -97,7 +97,7 @@
       -->
       <div class="row content">
         <a href="/" class="footer-brand">
-          <img alt="Tinsel" src="/img/footer-logo.png">
+          <img alt="Tinsel" src="/assets/footer-logo.png">
         </a>
         <div class="col-sm-6">
           <ul class="nav nav-pills page-links">
@@ -107,11 +107,11 @@
         </div>
         <div class="col-sm-6">
           <ul class="nav nav-pills social-links">
-            <li role="presentation" class="instagram"><a href="instagram"><img src="/img/instagram-icon.png"></a></li>
-            <li role="presentation" class="pinterest"><a href="pinterest"><img src="/img/pinterest-icon.png"></a></li>
-            <li role="presentation" class="twitter"><a href="twitter"><img src="/img/twitter-icon.png"></a></li>
-            <li role="presentation" class="facebook"><a href="facebook"><img src="/img/facebook-icon.png"></a></li>
-            <li role="presentation" class="email"><a href="email"><img src="/img/email-icon.png"></a></li>
+            <li role="presentation" class="instagram"><a href="instagram"><img src="/assets/instagram-icon.png"></a></li>
+            <li role="presentation" class="pinterest"><a href="pinterest"><img src="/assets/pinterest-icon.png"></a></li>
+            <li role="presentation" class="twitter"><a href="twitter"><img src="/assets/twitter-icon.png"></a></li>
+            <li role="presentation" class="facebook"><a href="facebook"><img src="/assets/facebook-icon.png"></a></li>
+            <li role="presentation" class="email"><a href="email"><img src="/assets/email-icon.png"></a></li>
           </ul>
         </div>
       </div>
@@ -119,12 +119,12 @@
     </footer>
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <script>window.jQuery || document.write('<script src="/assets/vendor/jquery-1.11.2.min.js"><\/script>')</script>
     <!--Combo and minify the scripts when you're not logged in.-->
-    <squarespace:script src="/js/vendor/bootstrap.min.js" />
-    <squarespace:script src="/js/plugins.js" combo="{.if authenticatedAccount}false{.or}true{.end}" />
-    <squarespace:script src="/js/main.js" />
+    <squarespace:script src="vendor/bootstrap.min.js" />
+    <squarespace:script src="plugins.js" combo="{.if authenticatedAccount}false{.or}true{.end}" />
     <squarespace:script src="site.js" combo="{.if authenticatedAccount}false{.or}true{.end}" />
+    <squarespace:script src="main.js" combo="{.if authenticatedAccount}false{.or}true{.end}" />
 
     <!--Injection point for tracking scripts and user content from the code injection tab.-->
     {squarespace-footers}
