@@ -85,7 +85,8 @@ body {}
         color: #392245;
         font-size: 2.4em;
         letter-spacing: 0.08em;
-        padding: 0 15px; }
+        margin: 20px 0;
+        padding: 20px 15px; }
     .content-section .tagline,
     .content-section-alt .tagline {
         font-size: 1.133em; }
@@ -145,7 +146,7 @@ body {}
         background-size: 517px;
         margin: 0 auto;
         min-height: 700px;
-        padding-top: 200px;
+        padding: 200px 20px;
         position: relative;
         width: 1150px;
         z-index: 100; }
@@ -161,9 +162,6 @@ body {}
     background: #000 url("/assets/features-benefits-bg-m.jpg") 50% 0 no-repeat;
     background-size: 768px;
     padding: 0; }
-    .features-benefits h2 {
-        padding-top: 70px;
-        padding-bottom: 30px; }
     .features-benefits .tagline {
         padding-top: 30px; }
     .features-benefits .carousel-inner {
