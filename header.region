@@ -24,12 +24,6 @@
 
           <div class="navbar-header">
           {.section website}
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
             <a href="/" class="home-link pull-left">
               {.section logoImageUrl}
                <img class="logo" src="{logoImageUrl}?format=original" alt="{siteTitle}" />
@@ -41,17 +35,24 @@
             {.section siteTagLine}
               <p class="site-tagline sr-only">{@}</p>
             {.end}
+
+            <button class="btn btn-primary navbar-btn btn-cta">I WANT ONE</button>
+
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
           {.end}
           </div>
-
-          <button class="btn btn-primary navbar-btn btn-cta">I WANT ONE</button>
 
           <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="/blog">blog</a></li>
                 <!-- <li><a href="/team">team</a></li> -->
             </ul>
-            <squarespace:block-field id="headerBlock" label="Header Block" columns="1" />
+            <!-- <squarespace:block-field id="headerBlock" label="Header Block" columns="1" /> -->
           </div><!--/.navbar-collapse -->
         </div>
       </nav>
