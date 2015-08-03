@@ -25,6 +25,8 @@ body {}
 .header-nav {
     margin: 0 auto;
     max-width: 1150px; }
+    .header-nav .container-fluid {
+        padding: 0; }
     .header-nav .logo {
         width: 230px; }
 }
@@ -127,11 +129,12 @@ body {}
         padding-top: 330px; }
 @media (min-width: 768px) {
 .main-intro {
-    margin-bottom: -256px;
-    min-height: 700px; }
+    margin-bottom: -283px; }
     .main-intro .inner {
-        background-position: 392px 0;
+        background-position: 0 0;
         background-size: 517px;
+        margin: 0 auto;
+        min-height: 700px;
         padding-top: 200px;
         position: relative;
         width: 1150px;
