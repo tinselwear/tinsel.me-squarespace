@@ -120,19 +120,22 @@ body {}
     width: 1150px; }
 }
 
-.main-intro {
-    background: transparent url("/assets/dipper-main.png") 0 0 no-repeat;
-    background-size: 200px;
-    padding-top: 330px; }
+.main-intro {}
+    .main-intro .inner {
+        background: transparent url("/assets/dipper-main.png") 0 0 no-repeat;
+        background-size: 200px;
+        padding-top: 330px; }
 @media (min-width: 768px) {
 .main-intro {
-    background-position: 392px 0;
-    background-size: 517px;
     margin-bottom: -256px;
-    min-height: 700px;
-    padding-top: 200px;
-    position: relative;
-    z-index: 100; }
+    min-height: 700px; }
+    .main-intro .inner {
+        background-position: 392px 0;
+        background-size: 517px;
+        padding-top: 200px;
+        position: relative;
+        width: 1150px;
+        z-index: 100; }
     .main-intro h2 {
         padding: 0 102px 35px 686px; }
         .main-intro h2 br {
