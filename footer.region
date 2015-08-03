@@ -14,13 +14,7 @@
           </ul>
         </div>
         <div class="col-sm-6">
-          <ul class="nav nav-pills social-links">
-            <li role="presentation" class="instagram"><a href="instagram"><img src="/assets/instagram-icon.png"></a></li>
-            <li role="presentation" class="pinterest"><a href="pinterest"><img src="/assets/pinterest-icon.png"></a></li>
-            <li role="presentation" class="twitter"><a href="twitter"><img src="/assets/twitter-icon.png"></a></li>
-            <li role="presentation" class="facebook"><a href="facebook"><img src="/assets/facebook-icon.png"></a></li>
-            <li role="presentation" class="email"><a href="email"><img src="/assets/email-icon.png"></a></li>
-          </ul>
+          <squarespace:block-field id="footerBlock" label="Footer Block" columns="1" />
         </div>
       </div>
       <p class="sr-only">&copy; Tinsel 2014</p>
