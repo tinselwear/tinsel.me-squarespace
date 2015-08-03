@@ -293,7 +293,8 @@ footer {
         width: 150px; }
     footer .page-links {
         font-family: "CentaurMT-BoldItalic", serif;
-        font-size: 28px; }
+        font-size: 28px;
+        padding-top: 36px; }
         .page-links li {
             display: inline; }
     footer .social-links {
@@ -308,5 +309,5 @@ footer {
 /* social icons */
 .sqs-svg-icon--social .sqs-use--icon { fill: #8f6db0 !important; }
 @media (min-width: 768px) {
-    .sqs-svg-icon--social { padding-top: 50px; }
+    .sqs-svg-icon--list { padding-top: 50px; }
 }
