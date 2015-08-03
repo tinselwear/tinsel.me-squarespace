@@ -26,8 +26,6 @@
       <p class="sr-only">&copy; Tinsel 2014</p>
     </footer>
 
-    </div><!-- container -->
-
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="/assets/vendor/jquery-1.11.2.min.js"><\/script>')</script>
     <!--Combo and minify the scripts when you're not logged in.-->
