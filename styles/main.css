@@ -341,3 +341,7 @@ footer {
     footer .sqs-svg-icon--list {
         padding-top: 50px; }
 }
+
+
+/***** Mailchimp specific styles *****/
+.mc-modal { z-index: 1040 !important; }
