@@ -26,13 +26,18 @@ body {}
     margin: 0;
     padding: 6px 15px; }
 @media (min-width: 768px) {
+.btn-cta {
+    font-size: 2em; }
 .header-nav {
     margin: 0 auto;
     max-width: 1150px; }
     .header-nav .container-fluid {
         padding: 0; }
     .header-nav .logo {
-        width: 230px; }
+        width: 236px; }
+    .header-nav .btn-cta {
+        line-height: 1;
+        padding: 16px 35px; }
 }
 
 .carousel-inner {
