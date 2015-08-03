@@ -3959,11 +3959,11 @@ tbody.collapse.in {
   .navbar-inverse .navbar-toggle {
     border: none; }
     .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
-      background-color: #333; }
+      background-color: #8f6db0; }
     .navbar-inverse .navbar-toggle .icon-bar {
       background-color: #8f6db0; }
-    .navbar-inverse .navbar-nav > .active > a .icon-bar, .navbar-inverse .navbar-nav > .active > a:hover .icon-bar, .navbar-inverse .navbar-nav > .active > a:focus .icon-bar {
-      color: #fff; }
+    .navbar-inverse .navbar-toggle:hover .icon-bar, .navbar-inverse .navbar-toggle:focus .icon-bar {
+      background-color: #fff; }
   .navbar-inverse .navbar-collapse,
   .navbar-inverse .navbar-form {
     border-color: black; }
