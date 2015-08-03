@@ -270,6 +270,14 @@ body {}
         width: auto; }
     .mailing-list form {
         padding: 75px 0 75px; }
+        .mailing-list form .button {
+            background-color: transparent;
+            border: 1px solid #fff;
+            color: #fff;
+            font-family: "CentaurMT-BoldItalic", serif;
+            font-size: 23px;
+            line-height: 1;
+            padding: 10px 30px; }
 }
 
 footer {
