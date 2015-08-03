@@ -18,55 +18,44 @@
     <squarespace:navigation navigationId="mainNav" template="navigation" />
     -->
 
-    <header>
-      <nav class="navbar navbar-inverse navbar-fixed-top header-nav" role="navigation">
-        <div class="container-fluid">
+    <header class="row">
+      <div class="col-sm-9">
+        <nav class="navbar navbar-inverse navbar-fixed-top header-nav" role="navigation">
+          <div class="container-fluid">
 
-          <div class="navbar-header">
-          {.section website}
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a href="/" class="home-link pull-left">
-              {.section logoImageUrl}
-               <img class="logo" src="{logoImageUrl}?format=original" alt="{siteTitle}" />
-              {.or}
-               <img class="logo" src="/assets/header-logo-m.png" alt="{siteTitle}" />
-               <span class="sr-only">{siteTitle}</span>
+            <div class="navbar-header">
+            {.section website}
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a href="/" class="home-link pull-left">
+                {.section logoImageUrl}
+                 <img class="logo" src="{logoImageUrl}?format=original" alt="{siteTitle}" />
+                {.or}
+                 <img class="logo" src="/assets/header-logo-m.png" alt="{siteTitle}" />
+                 <span class="sr-only">{siteTitle}</span>
+                {.end}
+              </a>
+              {.section siteTagLine}
+                <p class="site-tagline sr-only">{@}</p>
               {.end}
-            </a>
-            {.section siteTagLine}
-              <p class="site-tagline sr-only">{@}</p>
             {.end}
-          {.end}
+            </div>
+
+            <div id="navbar" class="navbar-collapse collapse">
+              <button class="btn btn-primary navbar-btn btn-cta">I WANT ONE</button>
+              <ul class="nav navbar-nav navbar-right">
+                  <li><a href="/blog">blog</a></li>
+                  <!-- <li><a href="/team">team</a></li> -->
+              </ul>
+            </div><!--/.navbar-collapse -->
           </div>
-
-          <div id="navbar" class="navbar-collapse collapse">
-            <button class="btn btn-primary navbar-btn btn-cta">I WANT ONE</button>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="/blog">blog</a></li>
-                <!-- <li><a href="/team">team</a></li> -->
-                <li role="presentation" class="instagram">
-                  <a href="instagram"><img src="/assets/instagram-icon.png" alt="instagram"></a></li>
-                <li role="presentation" class="pinterest">
-                  <a href="pinterest"><img src="/assets/pinterest-icon.png" alt="pinterest"></a>
-                </li>
-                <li role="presentation" class="twitter">
-                  <a href="twitter"><img src="/assets/twitter-icon.png" alt="twitter"></a>
-                </li>
-                <li role="presentation" class="facebook">
-                  <a href="facebook"><img src="/assets/facebook-icon.png" alt="facebook"></a>
-                </li>
-                <li role="presentation" class="email">
-                  <a href="email"><img src="/assets/email-icon.png" alt="mailto: hello@tinsel.me"></a>
-                </li>
-            </ul>
-          </div><!--/.navbar-collapse -->
-
-          <squarespace:block-field id="headerBlock" label="Header Block" columns="1" />
-        </div>
-      </nav>
+        </nav>
+      </div>
+      <div class="col-sm-3">
+        <squarespace:block-field id="headerBlock" label="Header Block" columns="1" />
+      </div>
     </header>
