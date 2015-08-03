@@ -293,8 +293,7 @@ footer {
         width: 150px; }
     footer .page-links {
         font-family: "CentaurMT-BoldItalic", serif;
-        font-size: 28px;
-        text-align: center; }
+        font-size: 28px; }
         .page-links li {
             display: inline; }
     footer .social-links {
@@ -308,3 +307,6 @@ footer {
 /***** Squarespace specific styles *****/
 /* social icons */
 .sqs-svg-icon--social .sqs-use--icon { fill: #8f6db0 !important; }
+@media (min-width: 768px) {
+    .sqs-svg-icon--social { padding-top: 50px; }
+}

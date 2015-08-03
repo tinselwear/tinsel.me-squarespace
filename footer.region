@@ -4,16 +4,18 @@
       <squarespace:block-field id="footerBlocks" columns="12" />
       -->
       <div class="row content">
-        <a href="/" class="footer-brand">
-          <img alt="Tinsel" src="/assets/footer-logo.png">
-        </a>
-        <div class="col-sm-6">
-          <ul class="nav nav-pills page-links">
+        <div class="col-sm-4">
+          <a href="/" class="footer-brand">
+            <img alt="Tinsel" src="/assets/footer-logo.png">
+          </a>
+        </div>
+        <div class="col-sm-4">
+          <ul class="nav nav-pills page-links pull-right">
             <li role="presentation" ><a href="/blog">blog</a></li>
             <!-- <li role="presentation" ><a href="/team">team</a></li> -->
           </ul>
         </div>
-        <div class="col-sm-6">
+        <div class="col-sm-4">
           <squarespace:block-field id="footerBlock" label="Footer Block" columns="1" />
         </div>
       </div>
