@@ -197,6 +197,9 @@ body {}
         padding-bottom: 0; }
     .meet-dipper h2 br {
         display: none; }
+    .meet-dipper .carousel {
+        padding-top: 50px;
+    }
     .meet-dipper .product-caption {
         margin-top: 20px;
         padding: 0 0 0 30px; }
@@ -213,11 +216,14 @@ body {}
         width: auto; }
     .meet-dipper .img-indicators img {
         width: 20px; }
+    .meet-dipper .carousel-control {
+        top: 65px; }
 @media (min-width: 768px) {
 .meet-dipper {
     background: #000 url("/assets/meet-dipper-bg.jpg") 50% 0 no-repeat;
     background-size: auto; }
     .meet-dipper h2 {
+        margin: 0 auto;
         padding: 50px 0 30px;
         width: 968px; }
     .meet-dipper h2 br {
@@ -242,6 +248,8 @@ body {}
         padding: 0 0 0 30px;
         right: 0;
         width: 300px; }
+    .meet-dipper .carousel-control {
+        top: 95px; }
 }
 
 .why-tinsel {}
