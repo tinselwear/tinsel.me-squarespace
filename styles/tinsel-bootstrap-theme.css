@@ -3723,7 +3723,7 @@ tbody.collapse.in {
   position: relative;
   float: right;
   margin-right: 15px;
-  padding: 0 10px;
+  padding: 9px 10px;
   margin-top: 8px;
   margin-bottom: 8px;
   background-color: transparent;
@@ -3952,7 +3952,7 @@ tbody.collapse.in {
       background-color: #8f6db0; }
   .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
     color: #fff;
-    background-color: black; }
+    background-color: #8f6db0; }
   .navbar-inverse .navbar-nav > .disabled > a, .navbar-inverse .navbar-nav > .disabled > a:hover, .navbar-inverse .navbar-nav > .disabled > a:focus {
     color: #444;
     background-color: transparent; }
@@ -3962,6 +3962,8 @@ tbody.collapse.in {
       background-color: #333; }
     .navbar-inverse .navbar-toggle .icon-bar {
       background-color: #8f6db0; }
+    .navbar-inverse .navbar-nav > .active > a .icon-bar, .navbar-inverse .navbar-nav > .active > a:hover .icon-bar, .navbar-inverse .navbar-nav > .active > a:focus .icon-bar {
+      color: #fff; }
   .navbar-inverse .navbar-collapse,
   .navbar-inverse .navbar-form {
     border-color: black; }

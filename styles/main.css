@@ -125,8 +125,8 @@ body {}
 .main-intro {}
     .main-intro .inner {
         background: transparent url("/assets/dipper-main.png") 0 0 no-repeat;
-        background-size: 200px;
-        padding-top: 330px; }
+        background-size: 220px;
+        padding-top: 312px; }
 @media (min-width: 768px) {
 .main-intro {
     margin-bottom: -283px; }
