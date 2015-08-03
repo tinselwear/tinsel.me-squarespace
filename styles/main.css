@@ -19,10 +19,14 @@ body {}
     font-family: CentaurMT-BoldItalic, serif; }
 .navbar {
     background-color: transparent; }
+.header-nav .logo {
+    width: 110px; }
 @media (min-width: 768px) {
 .header-nav {
     margin: 0 auto;
     max-width: 1150px; }
+    .header-nav .logo {
+        width: 230px; }
 }
 
 .carousel-inner {
