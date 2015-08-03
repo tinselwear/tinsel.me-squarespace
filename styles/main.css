@@ -286,3 +286,7 @@ footer {
         margin: 0 auto;
         width: 968px; }
 }
+
+/***** Squarespace specific styles *****/
+/* social icons */
+.sqs-svg-icon--social .sqs-use--icon { fill: #8f6db0 !important; }
