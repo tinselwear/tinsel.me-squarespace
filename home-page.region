@@ -60,7 +60,7 @@
     <h2>MEET THE<br> DIPPER</h2>
     <div id="carousel-meet-dipper" class="carousel slide" data-ride="carousel" data-interval="false">
       <!-- Indicators -->
-      <ol class="carousel-indicators">
+      <ol class="carousel-indicators img-indicators">
         <li data-target="#carousel-meet-dipper" data-slide-to="0" class="active">
           <img src="/assets/chevron-nav-gold.png" alt="">
         </li>
@@ -69,17 +69,33 @@
         </li>
       </ol>
 
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-features-benefits" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-features-benefits" data-slide-to="1"></li>
+        <li data-target="#carousel-features-benefits" data-slide-to="2"></li>
+      </ol>
+
       <!-- Wrapper for slides -->
       <div class="carousel-inner" role="listbox">
         <div class="item active product-gold">
-          <img src="/assets/dipper-product-gold.png" alt="...">
+          <img src="/assets/dipper-product-gold-1.png" alt="...">
           <p class="product-caption">Our “tech jewelry” allows you to wear your technology as a beautiful accessory.</p>
         </div>
         <div class="item product-gunmetal">
-          <img src="/assets/dipper-product-gunmetal.png" alt="...">
+          <img src="/assets/dipper-product-gunmetal-1.png" alt="...">
           <p class="product-caption">Our “tech jewelry” allows you to wear your technology as a beautiful accessory.</p>
         </div>
       </div>
+
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel-meet-dipper" role="button" data-slide="prev">
+        <img alt="Previous" src="/assets/carousel-arrow-left.png" aria-hidden="true">
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel-meet-dipper" role="button" data-slide="next">
+        <img alt="Next" src="/assets/carousel-arrow-right.png" aria-hidden="true">
+        <span class="sr-only">Next</span>
+      </a>
     </div>
   </div>
 </div><!-- row -->

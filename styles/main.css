@@ -200,18 +200,18 @@ body {}
     .meet-dipper .product-caption {
         margin-top: 20px;
         padding: 0 0 0 30px; }
-    .meet-dipper .carousel-indicators {
+    .meet-dipper .img-indicators {
         bottom: auto;
         left: 14px;
         margin: 0;
         top: 10px;
         width: auto; }
-    .meet-dipper .carousel-indicators li {
+    .meet-dipper .img-indicators li {
         height: auto;
         margin: 0 6px;
         text-indent: inherit;
         width: auto; }
-    .meet-dipper .carousel-indicators img {
+    .meet-dipper .img-indicators img {
         width: 20px; }
 @media (min-width: 768px) {
 .meet-dipper {
@@ -230,11 +230,11 @@ body {}
         width: 336px; }
     .meet-dipper .product-gunmetal img {
         width: 399px; }
-    .meet-dipper .carousel-indicators {
+    .meet-dipper .img-indicators {
         left: 0; }
-    .meet-dipper .carousel-indicators li {
+    .meet-dipper .img-indicators li {
         margin: 0 20px 0 0; }
-    .meet-dipper .carousel-indicators img {
+    .meet-dipper .img-indicators img {
         width: auto; }
     .meet-dipper .carousel-inner .product-caption {
         float: right;
