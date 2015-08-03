@@ -133,7 +133,7 @@ body {}
 }
 
 .main-intro {
-    padding: 0; }
+    padding-top: 0; }
     .main-intro .inner {
         background: transparent url("/assets/dipper-main.png") 0 0 no-repeat;
         background-size: 220px;
@@ -192,6 +192,9 @@ body {}
 .meet-dipper {
     background: #000 url("/assets/meet-dipper-bg-m.jpg") 0 0 no-repeat;
     background-size: 768px; }
+    .meet-dipper h2 {
+        margin: 0;
+        padding-bottom: 0; }
     .meet-dipper h2 br {
         display: none; }
     .meet-dipper .product-caption {
@@ -242,6 +245,8 @@ body {}
 }
 
 .why-tinsel {}
+    .why-tinsel .team-btn {
+        margin-top: 15px; }
 @media (min-width: 768px) {
 .why-tinsel {
     background: #000 url("/assets/why-tinsel-bg.jpg") 50% 0 no-repeat;
@@ -265,6 +270,10 @@ body {}
 .mailing-list {
     background: #000 url("/assets/purple-pattern-bg.jpg") 0 0 no-repeat;
     background-size: 768px; }
+    .mailing-list h2 { 
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 0; }
     .mailing-list .content {
         margin: 0; }
         .mailing-list form .button {
