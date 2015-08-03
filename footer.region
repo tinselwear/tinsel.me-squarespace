@@ -10,7 +10,7 @@
           </a>
         </div>
         <div class="col-sm-4">
-          <ul class="nav nav-pills page-links pull-right">
+          <ul class="nav nav-pills page-links">
             <li role="presentation" ><a href="/blog">blog</a></li>
             <!-- <li role="presentation" ><a href="/team">team</a></li> -->
           </ul>

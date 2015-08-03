@@ -257,6 +257,14 @@ body {}
     background-size: 768px; }
     .mailing-list .content {
         margin: 0; }
+        .mailing-list form .button {
+            background-color: transparent;
+            border: 1px solid #fff;
+            color: #fff;
+            font-family: "CentaurMT-BoldItalic", serif;
+            font-size: 23px;
+            line-height: 1;
+            padding: 10px 30px; }
 @media (min-width: 768px) {
 .mailing-list {
     background: #000 url("/assets/purple-pattern-bg.jpg") 0 0 repeat-x;
@@ -270,14 +278,6 @@ body {}
         width: auto; }
     .mailing-list form {
         padding: 75px 0 75px; }
-        .mailing-list form .button {
-            background-color: transparent;
-            border: 1px solid #fff;
-            color: #fff;
-            font-family: "CentaurMT-BoldItalic", serif;
-            font-size: 23px;
-            line-height: 1;
-            padding: 10px 30px; }
 }
 
 footer {
