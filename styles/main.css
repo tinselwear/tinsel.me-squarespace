@@ -85,7 +85,7 @@ body {}
         color: #392245;
         font-size: 2.4em;
         letter-spacing: 0.08em;
-        margin: 20px 0;
+        margin: 20px 0 0;
         padding: 20px 15px; }
     .content-section .tagline,
     .content-section-alt .tagline {
@@ -162,6 +162,8 @@ body {}
     background: #000 url("/assets/features-benefits-bg-m.jpg") 50% 0 no-repeat;
     background-size: 768px;
     padding: 0; }
+    .features-benefits h2 {
+        margin: 20px 0; }
     .features-benefits .tagline {
         padding-top: 30px; }
     .features-benefits .carousel-inner {
