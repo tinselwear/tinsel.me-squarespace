@@ -65,9 +65,8 @@
                 </li>
             </ul>
           </div><!--/.navbar-collapse -->
-      
+
+          <squarespace:block-field id="headerBlock" label="Header Block" columns="1" />
         </div>
       </nav>
-
-      <squarespace:block-field id="headerBlock" label="Header Block" columns="1" />
     </header>
