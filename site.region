@@ -32,12 +32,13 @@
             <span class="icon-bar"></span>
           </button>
           <a href="/" class="home-link pull-left">
-              {.section logoImageUrl}
-               <img class="logo" src="{logoImageUrl}?format=original" alt="{siteTitle}" />
-              {.or}
-               <img class="logo" src="/assets/header-logo-m.png" alt="{siteTitle}" />
-               <span class="sr-only">{siteTitle}</span>
-              {.end}
+            {.section logoImageUrl}
+             <img class="logo" src="{logoImageUrl}?format=original" alt="{siteTitle}" />
+            {.or}
+             <img class="logo" src="/assets/header-logo-m.png" alt="{siteTitle}" />
+             <span class="sr-only">{siteTitle}</span>
+            {.end}
+          </a>
           {.section siteTagLine}
             <p class="site-tagline sr-only">{@}</p>
           {.end}
