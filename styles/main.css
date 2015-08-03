@@ -319,5 +319,8 @@ footer {
 /* social icons */
 .sqs-svg-icon--social .sqs-use--icon { fill: #8f6db0 !important; }
 @media (min-width: 768px) {
-    .sqs-svg-icon--list { padding-top: 50px; }
+    .header-nav .sqs-svg-icon--list {
+        display: inline-block }
+    footer .sqs-svg-icon--list {
+        padding-top: 50px; }
 }
