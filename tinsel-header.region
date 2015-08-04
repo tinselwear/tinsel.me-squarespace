@@ -27,7 +27,7 @@
           the custom home page styles apply.
           This is super hacky. Never do this.
       */
-      ;(function() {$(document.head).children('link[href*="/site.css"]:first').remove();})();
+      //;(function() {$(document.head).children('link[href*="/site.css"]:first').remove();})();
     </script>
 
     <!--Main navigation.
