@@ -1,0 +1,347 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {}
+@media (min-width: 768px) {
+    body {
+        font-size: 17px; }
+}
+
+.btn-cta {
+    font-family: 'Gotham XNarrow A', 'Gotham XNarrow B', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.1em; }
+.tagline {
+    font-family: CentaurMT-BoldItalic, serif; }
+.navbar {
+    background-color: transparent; }
+.header-nav .home-link {
+    margin-right: 15px; }
+.header-nav .logo {
+    width: 110px; }
+.header-nav .btn-cta {
+    line-height: 0.73;
+    margin: 0;
+    padding: 6px 15px; }
+@media (min-width: 768px) {
+.btn-cta {
+    font-size: 2em; }
+.header-nav {
+    margin: 0 auto;
+    max-width: 1150px; }
+    .header-nav .container-fluid {
+        padding: 0; }
+    .header-nav .logo {
+        width: 236px; }
+    .header-nav .btn-cta {
+        line-height: 1;
+        padding: 16px 35px; }
+}
+
+.carousel-inner {
+    padding: 0; }
+    .carousel-inner .item img {
+        margin: 0 auto;
+        width: 40%; }
+.carousel-control.left {
+    background: none;
+    margin-left: 15px; }
+.carousel-control.right {
+    background: none;
+    margin-right: 15px; }
+    .carousel-control img {
+        width: 50px; }
+.carousel-indicators li {
+    margin: 1px 20px; }
+.carousel-indicators .active {
+    margin: 0 20px; }
+@media (min-width: 768px) {
+.carousel {
+    margin: 0 auto;
+    width: 1150px; }
+.carousel-inner .item {
+    margin: 0 15%;
+    width: 764px; }
+.carousel-inner .item img {
+    float: left;
+    margin: 0 auto;
+    padding: 0 0 20px;
+    width: 240px; }
+.carousel-inner .item p {
+    margin-left: 240px;
+    padding-left: 100px;
+    padding-right: 20px; }
+.carousel-control img {
+    width: auto; }
+}
+
+
+.content-section {
+    padding: 20px 0; }
+    .content-section h2,
+    .content-section-alt h2 {
+        color: #392245;
+        font-size: 2.4em;
+        letter-spacing: 0.08em;
+        margin: 20px 0 0;
+        padding: 20px 15px; }
+    .content-section .tagline,
+    .content-section-alt .tagline {
+        font-size: 1.133em; }
+    .content-section .carousel,
+    .content-section-alt .carousel {
+        padding: 0 15px; }
+.content-section-alt {
+    background: #000;
+    color: #fff;
+    padding: 20px 0 40px; }
+    .content-section-alt h2 {
+        color: #fff; }
+.content {
+    padding: 0 15px; }
+.product-caption {
+    background: transparent url("/assets/bullet-icon.png") 0 0 no-repeat; }
+.section-border {
+    background: transparent url("/assets/flower-border-bg-m.jpg") 50% 0 no-repeat;
+    background-size: 768px;
+    height: 34px; }
+.team-photos {
+    display: block;
+    margin: 20px 0; }
+    .team-photos img {
+        width: 90%; }
+@media (min-width: 768px) {
+.content-section, .content-section-alt {
+    padding: 0; }
+    .content-section h2, .content-section-alt h2 {
+        font-size: 3.529em;
+        margin: 0 auto;
+        width: 1150px; }
+    .content-section .tagline,
+    .content-section-alt .tagline {
+        font-size: 1.647em; }
+    .content-section br, .content-section-alt br {
+        display: none; }
+    .content {
+        margin: 0 auto;
+        width: 1150px; }
+.team-photos {
+    margin: 0 auto;
+    width: 1150px; }
+}
+
+.main-intro {
+    padding-top: 0; }
+    .main-intro .inner {
+        background: transparent url("/assets/dipper-main.png") 0 0 no-repeat;
+        background-size: 220px;
+        padding-top: 312px; }
+@media (min-width: 768px) {
+.main-intro {
+    margin-bottom: -283px; }
+    .main-intro .inner {
+        background-position: 0 0;
+        background-size: 517px;
+        margin: 0 auto;
+        min-height: 700px;
+        padding: 200px 20px;
+        position: relative;
+        width: 1150px;
+        z-index: 100; }
+    .main-intro h2 {
+        padding: 0 102px 35px 686px; }
+        .main-intro h2 br {
+            display: inline; }
+    .main-intro .content {
+        padding: 0 102px 0 686px; }
+}
+
+.features-benefits {
+    background: #000 url("/assets/features-benefits-bg-m.jpg") 50% 0 no-repeat;
+    background-size: 768px;
+    padding: 0; }
+    .features-benefits h2 {
+        margin: 20px 0; }
+    .features-benefits .tagline {
+        padding-top: 30px; }
+    .features-benefits .carousel-inner {
+        padding-bottom: 50px; }
+    .features-benefits .carousel-control img {
+        padding-top: 32px; }
+@media (min-width: 768px) {
+.features-benefits {
+    background: #000 url("/assets/features-benefits-bg.jpg") 50% 0 no-repeat;
+    background-size: auto;
+    max-height: 1034px; }
+    .features-benefits .section-border {
+        display: none; }
+    .features-benefits h2 {
+        padding: 348px 172px 76px; }
+    .features-benefits .tagline {
+        padding-top: 40px; }
+    .features-benefits .carousel {
+        height: 540px; }
+    .features-benefits .carousel-indicators {
+        bottom: 150px; }
+    .features-benefits .carousel-control img {
+        padding-top: 0; }
+}
+
+.meet-dipper {
+    background: #000 url("/assets/meet-dipper-bg-m.jpg") 0 0 no-repeat;
+    background-size: 768px; }
+    .meet-dipper h2 {
+        margin: 0;
+        padding-bottom: 0; }
+    .meet-dipper h2 br {
+        display: none; }
+    .meet-dipper .carousel {
+        padding-top: 50px;
+    }
+    .meet-dipper .product-caption {
+        margin-top: 20px;
+        padding: 0 0 0 30px; }
+    .meet-dipper .img-indicators {
+        bottom: auto;
+        left: 14px;
+        margin: 0;
+        top: 10px;
+        width: auto; }
+    .meet-dipper .img-indicators li {
+        height: auto;
+        margin: 0 6px;
+        text-indent: inherit;
+        width: auto; }
+    .meet-dipper .img-indicators img {
+        width: 20px; }
+    .meet-dipper .carousel-control {
+        top: 65px; }
+@media (min-width: 768px) {
+.meet-dipper {
+    background: #000 url("/assets/meet-dipper-bg.jpg") 50% 0 no-repeat;
+    background-size: auto; }
+    .meet-dipper h2 {
+        margin: 0 auto;
+        padding: 50px 0 30px;
+        width: 968px; }
+    .meet-dipper h2 br {
+        display: inline; }
+    .meet-dipper .carousel {
+        padding: 0;
+        width: 968px; }
+    .meet-dipper .item img {
+        float: none;
+        width: 336px; }
+    .meet-dipper .product-gunmetal img {
+        width: 399px; }
+    .meet-dipper .img-indicators {
+        left: 0; }
+    .meet-dipper .img-indicators li {
+        margin: 0 20px 0 0; }
+    .meet-dipper .img-indicators img {
+        width: auto; }
+    .meet-dipper .carousel-inner .product-caption {
+        float: right;
+        margin: 0;
+        padding: 0 0 0 30px;
+        right: 0;
+        width: 300px; }
+    .meet-dipper .carousel-control {
+        top: 95px; }
+}
+
+.why-tinsel {}
+    .why-tinsel .team-btn {
+        margin-top: 15px; }
+@media (min-width: 768px) {
+.why-tinsel {
+    background: #000 url("/assets/why-tinsel-bg.jpg") 50% 0 no-repeat;
+    background-size: auto;
+    max-height: 1328px; }
+    .why-tinsel h2 {
+        padding: 348px 0 40px;
+        width: 968px; }
+    .why-tinsel .content {
+        width: 968px; }
+    .why-tinsel .team-btn {
+        margin-top: 30px; }
+    .why-tinsel .team-photos {
+        margin-bottom: 100px;
+        width: 968px; }
+    .why-tinsel .team-photos img {
+        display: block;
+        width: 60%; }
+}
+
+.mailing-list {
+    background: #000 url("/assets/purple-pattern-bg.jpg") 0 0 no-repeat;
+    background-size: 768px; }
+    .mailing-list h2 { 
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 0; }
+    .mailing-list .content {
+        margin: 0; }
+        .mailing-list form .button {
+            background-color: transparent;
+            border: 1px solid #fff;
+            color: #fff;
+            font-family: "CentaurMT-BoldItalic", serif;
+            font-size: 23px;
+            line-height: 1;
+            padding: 10px 30px; }
+@media (min-width: 768px) {
+.mailing-list {
+    background: #000 url("/assets/purple-pattern-bg.jpg") 0 0 repeat-x;
+    background-size: auto; }
+    .mailing-list .content {
+        margin: 0 auto;
+        padding: 0;
+        width: 968px; }
+    .mailing-list h2 {
+        padding-top: 100px;
+        width: auto; }
+    .mailing-list form {
+        padding: 75px 0 75px; }
+}
+
+footer {
+    background-color: #d5d5d5;
+    padding-bottom: 30px; }
+    footer .content {
+        margin: 0;
+        text-align: center; }
+    .footer-brand {
+        display: block;
+        margin: 20px auto; }
+    .footer-brand img {
+        width: 150px; }
+    footer .page-links {
+        font-family: "CentaurMT-BoldItalic", serif;
+        font-size: 28px;
+        padding-top: 36px; }
+        .page-links li {
+            display: inline; }
+    footer .social-links {
+        text-align: center; }
+@media (min-width: 768px) {
+    footer .content {
+        margin: 0 auto;
+        width: 968px; }
+}
+
+/***** Squarespace specific styles *****/
+/* social icons */
+.sqs-svg-icon--social .sqs-use--icon { fill: #8f6db0 !important; }
+@media (min-width: 768px) {
+    .header-nav .sqs-svg-icon--list {
+        display: inline-block }
+    footer .sqs-svg-icon--list {
+        padding-top: 50px; }
+}
+
+
+/***** Mailchimp specific styles *****/
+.mc-modal { z-index: 1040 !important; }
