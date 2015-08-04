@@ -12,10 +12,10 @@
     <!--Include sqs scripts, meta tags, and user content from the code injection tab.-->
     {squarespace-headers}
 
-    <link rel="stylesheet" type="text/css" href="{website.baseUrl}/assets/styles/tinsel-fonts.css" />
-    <link rel="stylesheet" type="text/css" href="{website.baseUrl}/assets/styles/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="{website.baseUrl}/assets/styles/tinsel-bootstrap-theme.css" />
-    <link rel="stylesheet" type="text/css" href="{website.baseUrl}/assets/styles/main.css" />
+    <link rel="stylesheet" type="text/css" href="//{website.identifier}.squarespace.com/assets/styles/tinsel-fonts.css" />
+    <link rel="stylesheet" type="text/css" href="//{website.identifier}.squarespace.com/assets/styles/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="//{website.identifier}.squarespace.com/assets/styles/tinsel-bootstrap-theme.css" />
+    <link rel="stylesheet" type="text/css" href="//{website.identifier}.squarespace.com/assets/styles/main.css" />
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="/assets/vendor/jquery-1.11.2.min.js"><\/script>')</script>
