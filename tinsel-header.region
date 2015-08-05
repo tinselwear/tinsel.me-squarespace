@@ -60,15 +60,16 @@
               <span class="icon-bar"></span>
             </button>
 
-            <button class="btn btn-primary navbar-btn btn-cta">I WANT ONE</button>
           {.end}
           </div>
+
+          <button class="btn btn-primary navbar-btn btn-cta">I WANT ONE</button>
 
 <!--
             <squarespace:block-field id="headerBlock" label="Header Block" columns="1" />
 -->
           <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
+            <ul class="nav nav-pills navbar-nav">
                 <li><a href="/blog">blog</a></li>
                 <!-- <li><a href="/team">team</a></li> -->
             </ul>
