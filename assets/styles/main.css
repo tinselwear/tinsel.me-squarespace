@@ -336,16 +336,13 @@ footer {
     footer .content {
         margin: 0 auto;
         width: 968px; }
-    footer .page-links: {
-        padding-top: 36px;
-        text-align: right; }
+    footer .page-links {
+        padding-top: 36px; }
 }
 
 /***** Random fixes and overrides *****/
-a:visited {
+a:link, a:visited {
     color: #8f6db0; }
-a:hover, a:focus {
-    color: #392245; }
 .mailing-list form .title {
     font-family: "CentaurMT-BoldItalic", serif;
     font-size: 24px; }
