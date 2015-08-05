@@ -26,8 +26,6 @@ body {}
     margin: 0;
     padding: 6px 15px; }
 @media (min-width: 768px) {
-.btn-cta {
-    font-size: 2em; }
 .header-nav {
     margin: 0 auto;
     max-width: 1150px; }
@@ -36,6 +34,8 @@ body {}
     .header-nav .logo {
         width: 236px; }
     .header-nav .btn-cta {
+        float: right;
+        font-size: 2em; 
         line-height: 1;
         padding: 16px 35px; }
 }
@@ -112,6 +112,12 @@ body {}
     margin: 20px 0; }
     .team-photos img {
         width: 90%; }
+.page-links {
+    font-family: "CentaurMT-BoldItalic", serif;
+    font-size: 28px; }
+    .page-links li {
+        display: inline; }
+
 @media (min-width: 768px) {
 .content-section, .content-section-alt {
     padding: 0; }
@@ -330,11 +336,6 @@ footer {
         margin: 20px auto; }
     .footer-brand img {
         width: 150px; }
-    footer .page-links {
-        font-family: "CentaurMT-BoldItalic", serif;
-        font-size: 28px; }
-        .page-links li {
-            display: inline; }
     footer .social-links {
         text-align: center; }
 @media (min-width: 768px) {
