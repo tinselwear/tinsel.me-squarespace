@@ -35,7 +35,7 @@
     -->
 
     <header>
-      <nav class="navbar navbar-inverse affix header-nav" data-spy="affix" data-offset-top="60" role="navigation">
+      <nav class="navbar navbar-inverse navbar-fixed-top affix-top header-nav" data-spy="affix" data-offset-top="60" role="navigation">
         <div class="container-fluid">
 
           <div class="navbar-header">
