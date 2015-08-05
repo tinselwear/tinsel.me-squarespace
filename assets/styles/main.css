@@ -15,12 +15,12 @@ body {}
     font-size: 1.1em; }
 .tagline {
     font-family: CentaurMT-BoldItalic, serif; }
+.navbar {
+    background-color: transparent; }
 .affix {
     background-color: #fff;
     overflow: hidden;
     width: 100%; }
-.navbar {
-    background-color: transparent; }
 .header-nav .home-link {
     margin-right: 15px;
     position: absolute; }
