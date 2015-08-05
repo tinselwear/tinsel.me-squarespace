@@ -118,7 +118,9 @@
         <p class="col-sm-6">Tech accessories like headphones are often stuffed at the bottom of a purse, get tangled, and become worn out over time. Even worse, they downgrade the outfit that you've spent valuable time putting together.</p>
         <p class="col-sm-6">Our “tech jewelry” allows you to wear your technology as a beautiful accessory that complements the other pieces you wear, while helping you live your life on-the-go with ease.</p>
       </div>
+      <!--
       <a href="/team" class="btn btn-default btn-lg team-btn">meet the Tinsel team</a>
+    -->
     </div>
     <a href="/team" class="team-photos clearfix"><img class="pull-right" src="/assets/team-photos.png" alt="meet the Tinsel team"></a>
   </div>
