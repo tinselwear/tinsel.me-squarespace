@@ -25,16 +25,22 @@ body {}
     margin-right: 15px;
     position: absolute; }
 .affix .home-link {
-    top: -14px; }
+    top: -8px; }
 .affix .home-link img {
-    width: 190px; }
+    width: 150px; }
 .header-nav .logo {
     width: 110px; }
 .header-nav .btn-cta {
     line-height: 0.73;
     margin: 0;
     padding: 6px 15px; }
+.header-nav .ss-block {
+    display: none; }
 @media (min-width: 768px) {
+.affix .home-link {
+    top: -14px; }
+.affix .home-link img {
+    width: 190px; }
 .header-nav {
     margin: 0 auto;
     max-width: 1150px; }
