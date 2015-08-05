@@ -68,10 +68,6 @@ body {}
     margin: 0 auto;
     padding: 0 0 20px;
     width: 240px; }
-.carousel-inner .item p {
-    margin-left: 240px;
-    padding-left: 100px;
-    padding-right: 20px; }
 .carousel-control img {
     width: auto; }
 }
@@ -186,6 +182,10 @@ body {}
         bottom: 150px; }
     .features-benefits .carousel-control img {
         padding-top: 0; }
+    .features-benefits .item p {
+        margin-left: 240px;
+        padding-left: 100px;
+        padding-right: 20px; }
 }
 
 .meet-dipper {
@@ -237,10 +237,7 @@ body {}
         padding: 0;
         width: 968px; }
     .meet-dipper .item img {
-        float: none;
-        width: 336px; }
-    .meet-dipper .product-gunmetal img {
-        width: 399px; }
+        float: none; }
     .meet-dipper .img-indicators {
         left: 0; }
     .meet-dipper .img-indicators li {
@@ -248,11 +245,11 @@ body {}
     .meet-dipper .img-indicators img {
         width: auto; }
     .meet-dipper .product-caption {
-        float: right;
         margin: 0;
         padding: 0 0 0 30px;
-        right: 0;
-        width: 300px; }
+        right: 235px;
+        width: 300px;
+        position: absolute; }
     .meet-dipper .carousel-control {
         top: 95px; }
 }
@@ -335,7 +332,8 @@ footer {
         margin: 0 auto;
         width: 968px; }
     footer .page-links: {
-        padding-top: 36px }
+        padding-top: 36px;
+        text-align: right; }
 }
 
 /***** Random fixes and overrides *****/
