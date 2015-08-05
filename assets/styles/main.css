@@ -245,11 +245,7 @@ body {}
     .meet-dipper .img-indicators img {
         width: auto; }
     .meet-dipper .product-caption {
-        margin: 0;
-        padding: 0 0 0 30px;
-        right: 235px;
-        width: 300px;
-        position: absolute; }
+        margin: 0; }
     .meet-dipper .carousel-control {
         top: 95px; }
 }
