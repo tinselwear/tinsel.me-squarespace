@@ -64,15 +64,18 @@
         <li data-target="#carousel-meet-dipper" data-slide-to="0" class="active">
           <img src="/assets/chevron-nav-gold.png" alt="">
         </li>
-        <li data-target="#carousel-meet-dipper" data-slide-to="1">
+        <li data-target="#carousel-meet-dipper" data-slide-to="3">
           <img src="/assets/chevron-nav-gunmetal.png" alt="">
         </li>
       </ol>
 
       <ol class="carousel-indicators">
-        <li data-target="#carousel-features-benefits" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel-features-benefits" data-slide-to="1"></li>
-        <li data-target="#carousel-features-benefits" data-slide-to="2"></li>
+        <li data-target="#carousel-meet-dipper" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-meet-dipper" data-slide-to="1"></li>
+        <li data-target="#carousel-meet-dipper" data-slide-to="2"></li>
+        <li data-target="#carousel-meet-dipper" data-slide-to="3"></li>
+        <li data-target="#carousel-meet-dipper" data-slide-to="4"></li>
+        <li data-target="#carousel-meet-dipper" data-slide-to="5"></li>
       </ol>
 
       <!-- Wrapper for slides -->
@@ -82,7 +85,23 @@
           <p class="product-caption">Our “tech jewelry” allows you to wear your technology as a beautiful accessory.</p>
         </div>
         <div class="item product-gunmetal">
+          <img src="/assets/dipper-product-gold-2.png" alt="...">
+          <p class="product-caption">Our “tech jewelry” allows you to wear your technology as a beautiful accessory.</p>
+        </div>
+        <div class="item product-gunmetal">
+          <img src="/assets/dipper-product-gold-3.png" alt="...">
+          <p class="product-caption">Our “tech jewelry” allows you to wear your technology as a beautiful accessory.</p>
+        </div>
+        <div class="item product-gunmetal">
           <img src="/assets/dipper-product-gunmetal-1.png" alt="...">
+          <p class="product-caption">Our “tech jewelry” allows you to wear your technology as a beautiful accessory.</p>
+        </div>
+        <div class="item product-gunmetal">
+          <img src="/assets/dipper-product-gunmetal-2.png" alt="...">
+          <p class="product-caption">Our “tech jewelry” allows you to wear your technology as a beautiful accessory.</p>
+        </div>
+        <div class="item product-gunmetal">
+          <img src="/assets/dipper-product-gunmetal-3.png" alt="...">
           <p class="product-caption">Our “tech jewelry” allows you to wear your technology as a beautiful accessory.</p>
         </div>
       </div>
