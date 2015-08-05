@@ -69,7 +69,7 @@
             <squarespace:block-field id="headerBlock" label="Header Block" columns="1" />
 -->
           <div class="navbar-collapse collapse">
-            <ul class="nav nav-pills navbar-nav">
+            <ul class="nav nav-pills navbar-nav page-links">
                 <li><a href="/blog">blog</a></li>
                 <!-- <li><a href="/team">team</a></li> -->
             </ul>
