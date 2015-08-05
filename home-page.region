@@ -125,7 +125,7 @@
 </div><!-- row -->
 
 <div class="row">
-  <div class="content-section-alt mailing-list">
+  <div id="mailingList" class="content-section-alt mailing-list">
     <div class="row content">
       <div class="col-sm-6">
         <h2>SIGN UP FOR<br> OUR MAILING LIST</h2>

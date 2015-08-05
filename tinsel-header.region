@@ -34,7 +34,7 @@
     <squarespace:navigation navigationId="mainNav" template="navigation" />
     -->
 
-    <header>
+    <header id="pageHeader">
       <nav class="navbar navbar-inverse navbar-fixed-top affix-top header-nav" data-spy="affix" data-offset-top="60" role="navigation">
         <div class="container-fluid">
 

@@ -35,3 +35,13 @@
   // The event subscription that reloads images on resize.
   document.addEventListener('resize', loadAllImages);
 }());
+
+(function() {
+  $(function() {
+    $('#pageHeader').find('.btn-cta').click(function() {
+      $('html, body').animate({
+          scrollTop: $("#mailingList").offset().top
+      }, 2000);
+    });
+  });
+}());
