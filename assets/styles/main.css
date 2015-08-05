@@ -387,6 +387,13 @@ a:link, a:visited {
 
 /***** Squarespace specific styles *****/
 /* social icons */
+.form-wrapper .field-error {
+    background-color: #8f6db0; }
+.form-wrapper .field-list .form-item.error,
+.form-wrapper .field-list .form-item.error .caption,
+.form-wrapper .field-list .form-item.error .title,
+.form-wrapper .field-list .form-item.error .description {
+    color: #fff; }
 footer .content .sqs-svg-icon--list {
     text-align: center; }
 .sqs-svg-icon--social .sqs-use--icon { fill: #8f6db0 !important; }
