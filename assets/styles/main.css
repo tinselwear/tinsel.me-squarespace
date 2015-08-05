@@ -30,10 +30,12 @@ body {}
     width: 110px; }
 .header-nav .btn-cta {
     line-height: 0.73;
-    margin: 0;
+    margin: 0 0 0 110px;
     padding: 6px 15px; }
 .header-nav .ss-block {
     display: none; }
+.header-nav .navbar-toggle {
+    margin-top: 2px; }
 @media (min-width: 768px) {
 .affix .home-link {
     top: -14px; }
@@ -53,6 +55,7 @@ body {}
         float: right;
         font-size: 2em; 
         line-height: 1;
+        margin: 0;
         padding: 7px 25px; }
     .header-nav .ss-block {
         display: inline-block;
