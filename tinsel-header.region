@@ -65,8 +65,9 @@
 
           <button class="btn btn-primary navbar-btn btn-cta">I WANT ONE</button>
 
-          <squarespace:block-field id="headerBlock" label="Header Block" columns="1" />
-
+          <div class="navbar-form navbar-right ss-block">
+            <squarespace:block-field id="headerBlock" label="Header Block" columns="1" />
+          </div>
           <div class="navbar-collapse collapse">
             <ul class="nav nav-pills navbar-nav page-links">
                 <li><a href="/blog">blog</a></li>

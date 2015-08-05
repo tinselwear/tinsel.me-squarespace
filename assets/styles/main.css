@@ -37,7 +37,11 @@ body {}
         float: right;
         font-size: 2em; 
         line-height: 1;
-        padding: 16px 35px; }
+        padding: 7px 25px; }
+    .header-nav .ss-block {
+        display: inline-block;
+        float: right;
+        margin-left: 20px; }
 }
 
 .carousel-inner {
