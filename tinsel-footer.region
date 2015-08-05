@@ -9,13 +9,13 @@
             <img alt="Tinsel" src="/assets/footer-logo.png">
           </a>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-5">
           <ul class="nav nav-pills page-links">
             <li role="presentation" ><a href="/blog">blog</a></li>
             <!-- <li role="presentation" ><a href="/team">team</a></li> -->
           </ul>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-3">
           <squarespace:block-field id="footerBlock" label="Footer Block" columns="1" />
         </div>
       </div>

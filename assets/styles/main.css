@@ -325,8 +325,7 @@ footer {
         width: 150px; }
     footer .page-links {
         font-family: "CentaurMT-BoldItalic", serif;
-        font-size: 28px;
-        padding-top: 36px; }
+        font-size: 28px; }
         .page-links li {
             display: inline; }
     footer .social-links {
@@ -335,10 +334,23 @@ footer {
     footer .content {
         margin: 0 auto;
         width: 968px; }
+    footer .page-links: {
+        padding-top: 36px }
 }
+
+/***** Random fixes and overrides *****/
+a:visited {
+    color: #8f6db0; }
+a:hover, a:focus {
+    color: #392245; }
+.mailing-list form .title {
+    font-family: "CentaurMT-BoldItalic", serif;
+    font-size: 24px; }
 
 /***** Squarespace specific styles *****/
 /* social icons */
+footer .content .sqs-svg-icon--list {
+    text-align: center; }
 .sqs-svg-icon--social .sqs-use--icon { fill: #8f6db0 !important; }
 @media (min-width: 768px) {
     .header-nav .sqs-svg-icon--list {
