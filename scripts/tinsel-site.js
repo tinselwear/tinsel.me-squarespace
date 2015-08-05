@@ -41,7 +41,7 @@
     $('#pageHeader').find('.btn-cta').click(function() {
       $('html, body').animate({
           scrollTop: $("#mailingList").offset().top - 20
-      }, 2000);
+      }, 1000);
     });
   });
 }());
