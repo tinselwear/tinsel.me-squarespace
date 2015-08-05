@@ -199,8 +199,13 @@ body {}
     .meet-dipper .carousel {
         padding-top: 50px;
     }
+    .meet-dipper .carousel-inner {
+        margin-top: -38px; }
+    .meet-dipper .item img {
+        width: 80%; }
     .meet-dipper .product-caption {
-        background: none; }
+        background: none;
+        letter-spacing: -0.2px }
     .meet-dipper .carousel-indicators li {
         border-color: #662d91; }
     .meet-dipper .carousel-indicators .active {
@@ -236,6 +241,8 @@ body {}
     .meet-dipper .carousel {
         padding: 0;
         width: 968px; }
+    .meet-dipper .carousel-inner {
+        margin-top: 0; }
     .meet-dipper .item img {
         float: none; }
     .meet-dipper .img-indicators {
@@ -245,6 +252,7 @@ body {}
     .meet-dipper .img-indicators img {
         width: auto; }
     .meet-dipper .product-caption {
+        letter-spacing: 0;
         margin: 0; }
     .meet-dipper .carousel-control {
         top: 95px; }
