@@ -67,6 +67,9 @@ body {}
         display: inline-block;
         float: right;
         margin: 15px 10px 0 0; }
+    .header-nav .navbar-collapse {
+        background-color: transparent;
+        border-color: transparent; }
 }
 
 .carousel-inner {
