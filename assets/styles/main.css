@@ -33,6 +33,9 @@ body {}
         padding: 0; }
     .header-nav .logo {
         width: 236px; }
+    .header-nav .page-links {
+        float: right;
+        margin-right: 15px; }
     .header-nav .btn-cta {
         float: right;
         font-size: 2em; 
@@ -41,7 +44,7 @@ body {}
     .header-nav .ss-block {
         display: inline-block;
         float: right;
-        margin-left: 20px; }
+        margin: 15px 10px 0 0; }
 }
 
 .carousel-inner {

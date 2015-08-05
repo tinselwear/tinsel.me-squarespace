@@ -65,7 +65,7 @@
 
           <button class="btn btn-primary navbar-btn btn-cta">I WANT ONE</button>
 
-          <div class="navbar-form navbar-right ss-block">
+          <div class="navbar-form ss-block">
             <squarespace:block-field id="headerBlock" label="Header Block" columns="1" />
           </div>
           <div class="navbar-collapse collapse">
