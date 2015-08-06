@@ -293,16 +293,12 @@ body {}
         padding: 0;
         width: 968px; }
     .meet-dipper .carousel-inner {
-        margin-top: 0;
-        overflow: visible; }
-    .meet-dipper .item {
-        margin-top: -140px; }
+        margin-top: 0; }
     .meet-dipper .item img {
         float: none;
         width: 55%; }
     .meet-dipper .img-indicators {
-        left: 0;
-        top: 120px; }
+        left: 0; }
     .meet-dipper .img-indicators li {
         margin: 0 20px 0 0; }
     .meet-dipper .img-indicators img {
@@ -313,9 +309,6 @@ body {}
     .meet-dipper .carousel-control {
         padding-top: 134px;
         top: 95px; }
-    .meet-dipper .carousel-inner > .next,
-    .meet-dipper .carousel-inner > .prev {
-        width: 55%; }
 }
 
 .why-tinsel {
