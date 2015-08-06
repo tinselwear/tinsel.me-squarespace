@@ -143,5 +143,3 @@
 </div><!-- row -->
 
 </div><!-- main container -->
-
-<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us9.list-manage.com","uuid":"4ecbaca4ba7d633fab89b018b","lid":"e84e6281fa"}) })</script>
