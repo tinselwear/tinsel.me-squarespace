@@ -285,12 +285,16 @@ body {}
         padding: 0;
         width: 968px; }
     .meet-dipper .carousel-inner {
-        margin-top: 0; }
+        margin-top: 0;
+        overflow: visible; }
+    .meet-dipper .item {
+        margin-top: -140px; }
     .meet-dipper .item img {
         float: none;
         width: 55%; }
     .meet-dipper .img-indicators {
-        left: 0; }
+        left: 0;
+        top: 120px; }
     .meet-dipper .img-indicators li {
         margin: 0 20px 0 0; }
     .meet-dipper .img-indicators img {
