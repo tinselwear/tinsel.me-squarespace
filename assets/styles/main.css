@@ -302,7 +302,9 @@ body {}
         top: 95px; }
 }
 
-.why-tinsel {}
+.why-tinsel {
+    background: #fff url("/assets/why-tinsel-bg-m.png") 26% -6px no-repeat;
+    background-size: 768px; }
     .why-tinsel .team-btn {
         margin-top: 15px; }
 @media (min-width: 768px) {
