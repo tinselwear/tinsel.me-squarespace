@@ -289,7 +289,7 @@ body {}
         width: 1150px; }
     .meet-dipper h2 {
         float: left;
-        padding: 50px 0 30px;
+        padding: 50px 0 30px 15%;
         position: absolute;
         width: auto; }
     .meet-dipper h2 br {
@@ -297,6 +297,7 @@ body {}
     .meet-dipper .carousel {
         margin: 0;
         padding: 0;
+        overflow: hidden;
         width: auto; }
     .meet-dipper .carousel-inner {
         margin-top: 46px;
@@ -307,7 +308,7 @@ body {}
         float: none;
         width: auto; }
     .meet-dipper .img-indicators {
-        left: 0;
+        left: 15%;
         top: 200px; }
     .meet-dipper .img-indicators li {
         margin: 0 20px 0 0; }
@@ -318,7 +319,7 @@ body {}
         margin: 0; }
     .meet-dipper .carousel-control {
         padding-top: 134px;
-        top: 95px; }
+        top: 250px; }
 }
 
 .why-tinsel {
