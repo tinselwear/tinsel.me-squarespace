@@ -283,13 +283,16 @@ body {}
     .meet-dipper .section-border {
         height: 0;
         overflow: hidden; }
-    .meet-dipper h2 {
+    .meet-dipper .inner {
         margin: 0 auto;
+        width: 1150px; }
+    .meet-dipper h2 {
         padding: 50px 0 30px;
         width: 968px; }
     .meet-dipper h2 br {
         display: inline; }
     .meet-dipper .carousel {
+        margin: 0;
         padding: 0;
         width: 968px; }
     .meet-dipper .carousel-inner {
