@@ -234,6 +234,9 @@ body {}
 .meet-dipper {
     background: #000 url("/assets/meet-dipper-bg-m.jpg") 0 0 no-repeat;
     background-size: 768px; }
+    .meet-dipper .section-border {
+        background: transparent url("/assets/gradient-background.png") 0 100% repeat-x;
+        background-size: auto; }
     .meet-dipper h2 {
         margin: 0;
         padding-bottom: 0; }
@@ -275,6 +278,9 @@ body {}
 .meet-dipper {
     background: #000 url("/assets/meet-dipper-bg.jpg") 50% 0 no-repeat;
     background-size: auto; }
+    .meet-dipper .section-border {
+        height: 0;
+        overflow: hidden; }
     .meet-dipper h2 {
         margin: 0 auto;
         padding: 50px 0 30px;
