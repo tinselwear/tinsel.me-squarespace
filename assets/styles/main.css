@@ -285,23 +285,30 @@ body {}
         overflow: hidden; }
     .meet-dipper .inner {
         margin: 0 auto;
+        position: relative;
         width: 1150px; }
     .meet-dipper h2 {
+        float: left;
         padding: 50px 0 30px;
-        width: 968px; }
+        position: absolute;
+        width: auto; }
     .meet-dipper h2 br {
         display: inline; }
     .meet-dipper .carousel {
         margin: 0;
         padding: 0;
-        width: 968px; }
+        width: auto; }
     .meet-dipper .carousel-inner {
-        margin-top: 0; }
+        margin-top: 46px;
+        padding: 0 15%; }
+    .meet-dipper .item {
+        margin: 0; }
     .meet-dipper .item img {
         float: none;
-        width: 55%; }
+        width: auto; }
     .meet-dipper .img-indicators {
-        left: 0; }
+        left: 0;
+        top: 200px; }
     .meet-dipper .img-indicators li {
         margin: 0 20px 0 0; }
     .meet-dipper .img-indicators img {
