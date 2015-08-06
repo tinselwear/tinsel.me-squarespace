@@ -1,0 +1,18 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Aniyia Williams -- Co-founder and CEO -- https://twitter.com/operaqueenie
+    Marco Rogers -- Web Engineer, Husband to the CEO -- https://twitter.com/polotek
+    Jason Giles -- Visual Design and Branding
+
+# THANKS
+
+    Monia Santinello -- Co-founder
+    Tiffany Gaines -- Marketing Manager -- https://twitter.com/my_golden_style
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, HTML5 boilerplate, CSS3
+    jQuery, Modernizr, bootstrap
